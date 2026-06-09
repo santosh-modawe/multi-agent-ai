@@ -7,7 +7,7 @@ moderation_agent = Agent(
     model=MODEL,
     instruction="""
     Check whether the request is safe.
-    allow coding,angular related queries.
+    allow coding,angular related queries .
 
     Return ONLY:
     SAFE
